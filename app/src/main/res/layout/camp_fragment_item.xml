@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ds_320"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_280">
+
+
+        <ImageView
+            android:id="@+id/img_campaign_fragment_item_rmb"
+            android:layout_width="@dimen/ds_42"
+            android:layout_height="@dimen/ds_55"
+            android:layout_marginLeft="@dimen/ds_70"
+            android:layout_marginTop="@dimen/ds_80"
+            android:background="@drawable/hongse_03" />
+
+
+        <TextView
+            android:id="@+id/tv_campaign_fragment_item_chongzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ds_180"
+            android:layout_marginTop="@dimen/ds_70"
+            android:text="充值500元"
+            android:textColor="#000000"
+            android:textSize="@dimen/fs_50"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_campaign_fragment_item_zengsong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ds_180"
+            android:layout_marginTop="@dimen/ds_160"
+            android:text="赠送价值30元的优惠券"
+            android:textColor="#b6b6b6"
+            android:textSize="@dimen/fs_42"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/img_lijichongzhi"
+            android:layout_width="@dimen/ds_220"
+            android:layout_height="@dimen/ds_90"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_60"
+            android:background="@drawable/top_up_selector"
+            android:text="立即充值"
+            android:textColor="@drawable/top_up_text_selector"
+            android:textSize="@dimen/ds_40" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_40"
+        android:background="@color/linear_gray" />
+
+</LinearLayout>

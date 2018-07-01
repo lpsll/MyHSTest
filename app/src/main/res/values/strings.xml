@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">居然家政</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="common_loading">加载中&#8230;</string>
+    <string name="home_more">更多</string>
+    <string name="home_bottom">查看全部服务</string>
+    <string name="dialog_prompt">提示</string>
+    <string name="dialog_prompt_yes">确定</string>
+    <string name="dialog_prompt_no">暂无可提现余额</string>
+    <string name="fx">分享到</string>
+    <string name="wx_friend">微信好友</string>
+    <string name="friend">朋友圈</string>
+    <string name="xl">新浪微博</string>
+    <string name="qq">QQ</string>
+    <string name="photo_cancel">取消</string>
+    <string name="order_project">服务项目:</string>
+    <string name="order_code">订单编号:</string>
+    <string name="order_time">预约时间:</string>
+    <string name="order_address">预约地址:</string>
+    <string name="order_people">服务人员:</string>
+    <string name="order_kh_name">客户姓名:</string>
+    <string name="order_kh_phone">客户电话:</string>
+    <string name="order_phone">服务电话:</string>
+</resources>
